@@ -1,4 +1,4 @@
-def call(String repo_url, String sonarqube){
+def call(Map pipelineParams){
 pipeline
 {
     agent {
