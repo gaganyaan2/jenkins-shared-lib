@@ -15,11 +15,16 @@ pipeline
     {
         stage('git')
         {
-            GitCheckout(pipelineParams.repo_url)
+            steps{
+                GitCheckout(pipelineParams.repo_url)
+            }
+            
         }
         stage('sonarqube')
         {
-            SonarQubeStaticAnalysis()
+            steps{
+                SonarQubeStaticAnalysis()
+            }
         }
     }
 }
