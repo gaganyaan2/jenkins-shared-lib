@@ -1,6 +1,4 @@
-stage('git') {
-  def call(String git_url){
-    git credentialsId: 'github', url: git_url , branch: 'main'
-  }
-  return this
+def call(String git_url){
+  git credentialsId: 'github', url: git_url , branch: 'main'
 }
+return this
