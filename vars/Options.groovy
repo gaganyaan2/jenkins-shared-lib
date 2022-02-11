@@ -5,3 +5,4 @@ def call(){
         buildDiscarder(logRotator(numToKeepStr: '10'))
     }
 }
+return this

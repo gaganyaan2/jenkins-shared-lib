@@ -1,6 +1,4 @@
-stage{
-    def call(){
-    echo "static-analysis"
+def call(){
+  echo "sonarqube"
 }
 return this
-}
