@@ -1,4 +1,6 @@
-def call(){
+stage{
+    def call(){
     echo "static-analysis"
 }
 return this
+}
