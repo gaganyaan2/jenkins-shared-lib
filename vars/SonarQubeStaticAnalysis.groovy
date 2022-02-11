@@ -1,4 +1,6 @@
-def call(){
-  echo "sonarqube"
+stage('sonarqube')
+    def call(){
+    echo "sonarqube"
+    }
+    return this
 }
-return this
