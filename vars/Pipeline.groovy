@@ -1,3 +1,4 @@
+def call(){
 pipeline
 {
     agent {
@@ -27,4 +28,6 @@ pipeline
             }
         }
     }
+}
+return this
 }
