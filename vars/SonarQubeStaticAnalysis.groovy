@@ -1,4 +1,4 @@
-stage('sonarqube')
+stage('sonarqube'){
     def call(){
     echo "sonarqube"
     }
